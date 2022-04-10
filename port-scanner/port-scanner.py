@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-#Author: Nic Jones (NicPWNs)
+# Author: Nic Jones (NicPWNs)
+# port-scanner.py
 
 import socket
 import sys
