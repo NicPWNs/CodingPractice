@@ -1,4 +1,4 @@
-# Port Scanner
+# NicPWNs' Port Scanner
 
 ## Usage
 ```bash
