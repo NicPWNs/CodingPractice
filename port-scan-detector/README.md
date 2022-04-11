@@ -8,8 +8,8 @@ python3 port-scan-detector.py
 ## Behavior
 Listens on port 1023/tcp for connections, by default.
 
-## Testing
-Test with my [port scanner](../port-scanner).
+## Test
+Test this with my [port scanner](../port-scanner).
 
 ## To Do
 - [ ] Detect based on # of strange ports connected to.
