@@ -1,1 +1,1 @@
-# CodingInterviewPractice
+# Coding Interview Practice
