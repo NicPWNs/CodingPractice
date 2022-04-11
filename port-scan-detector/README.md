@@ -1,4 +1,4 @@
-# [NicPWNs](https://github.com/NicPWNs)' Port Scan Detector
+# NicPWNs' Port Scan Detector
 
 ## Usage
 ```bash
