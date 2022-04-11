@@ -4,7 +4,7 @@
 ```bash
 python3 port-scanner.py <TARGET> <PORTS>
 ```
-## Arguments:
+## Arguments
 ### TARGET
 Hostname or IP Address
 
