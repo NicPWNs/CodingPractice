@@ -32,7 +32,7 @@ status = []
 
 # Check for supported log type input
 if logType not in logTypes:
-    print("Log type not supported! Currently suppored: s3")
+    print("Log type not supported! Currently suppored: s3, httpd")
     exit()
 
 # Create lists of key data
