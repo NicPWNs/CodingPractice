@@ -13,7 +13,7 @@ class LinkedList:
 
     def print(self):
         if self.head is None:
-            print("Linked List is Empty!")
+            print("Linked list is empty!")
             return
         itr = self.head
         llstr = ""
@@ -114,9 +114,9 @@ if __name__ == '__main__':
     ll = LinkedList()
     ll.insert_values(["honda","toyota","subaru","acura"])
     ll.print()
-    ll.insert_after_value("toyota","lexus") # insert apple after mango
+    ll.insert_after_value("toyota","lexus") # insert lexus after toyota
     ll.print()
-    ll.remove_by_value("acura") # remove orange from linked list
+    ll.remove_by_value("acura")
     ll.print()
     ll.remove_by_value("ford")
     ll.print()
