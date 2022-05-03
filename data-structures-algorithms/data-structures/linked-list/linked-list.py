@@ -7,7 +7,7 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
-    def insert_at_beginning(self, data):
+    def insert_at_start(self, data):
         node = Node(data, self.head)
         self.head = node
 
@@ -68,7 +68,7 @@ class LinkedList:
             raise Exception("Not a valid index!")
 
         if index==0:
-            self.insert_at_beginning(data)
+            self.insert_at_start(data)
 
         count = 0
         itr = self.head
