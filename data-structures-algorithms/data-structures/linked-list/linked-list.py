@@ -9,13 +9,13 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
-    def insert_at_beginning(self, data):
+    def insert_at_start(self, data):
         node = Node(data, self.head)
         self.head = node
 
     def print(self):
         if self.head is None:
-            print("Linked List is Empty!")
+            print("Linked list is empty!")
             return
         itr = self.head
         llstr = ""
@@ -70,7 +70,7 @@ class LinkedList:
             raise Exception("Not a valid index!")
 
         if index==0:
-            self.insert_at_beginning(data)
+            self.insert_at_start(data)
 
         count = 0
         itr = self.head
@@ -116,9 +116,9 @@ if __name__ == '__main__':
     ll = LinkedList()
     ll.insert_values(["honda","toyota","subaru","acura"])
     ll.print()
-    ll.insert_after_value("toyota","lexus") # insert apple after mango
+    ll.insert_after_value("toyota","lexus") # insert lexus after toyota
     ll.print()
-    ll.remove_by_value("acura") # remove orange from linked list
+    ll.remove_by_value("acura")
     ll.print()
     ll.remove_by_value("ford")
     ll.print()
