@@ -9,11 +9,11 @@ textOut = ""
 for i in range(len(textIn)):
     char = textIn[i]
 
-    if (char.isupper()):
-        textOut += chr((ord(char) + rotNum-65) % 26 + 65)
+    if char.isupper():
+        textOut += chr((ord(char) + rotNum - 65) % 26 + ord("A"))
 
-    elif (char.islower()):
-        textOut += chr((ord(char) + rotNum-97) % 26 + 97)
+    elif char.islower():
+        textOut += chr((ord(char) + rotNum - 97) % 26 + ord("a"))
 
     else:
         textOut += char
