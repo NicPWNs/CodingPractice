@@ -10,10 +10,10 @@ for i in range(len(textIn)):
     char = textIn[i]
 
     if char.isupper():
-        textOut += chr((ord(char) + rotNum - ord("A")) % 26 + ord("A"))
+        textOut += chr(((ord(char) - ord("A")) + rotNum) % 26 + ord("A"))
 
     elif char.islower():
-        textOut += chr((ord(char) + rotNum - ord("a")) % 26 + ord("a"))
+        textOut += chr(((ord(char) - ord("a")) + rotNum) % 26 + ord("a"))
 
     else:
         textOut += char
